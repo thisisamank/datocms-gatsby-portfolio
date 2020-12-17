@@ -61,6 +61,10 @@ const TemplateWrapper = ({ children }) => {
                     data.datoCmsHome.introTextNode.childMarkdownRemark.html
                 }}
               />
+              <div className="sidebar__image">
+                <img className="sidebar__image" src="https://s3.ap-south-1.amazonaws.com/wallpaperapp.hindu/small_c1089941996289_57bc99a154ddc_012c393d17.png"></img>
+              </div>
+
               <ul className="sidebar__menu">
                 <li>
                   <Link to="/">Home</Link>
