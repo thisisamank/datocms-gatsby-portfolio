@@ -62,7 +62,7 @@ const TemplateWrapper = ({ children }) => {
                 }}
               />
               <div className="sidebar__image">
-                <img className="sidebar__image" src="https://s3.ap-south-1.amazonaws.com/wallpaperapp.hindu/small_c1089941996289_57bc99a154ddc_012c393d17.png"></img>
+                <img className="sidebar__image" src="https://s3.ap-south-1.amazonaws.com/wallpaperapp.hindu/medium_o_b0abc95fa0.jpg"></img>
               </div>
 
               <ul className="sidebar__menu">
@@ -84,6 +84,14 @@ const TemplateWrapper = ({ children }) => {
                     {" "}
                   </a>
                 ))}
+                   <a
+                    key={"LinkedIn"}
+                    href={"https://www.linkedin.com/in/shatabdi-roy-003a611b2/"}
+                    target="blank"
+                    className={`social social--linked`}
+                  >
+                    {" "}
+                  </a>
               </p>
               <div className="sidebar__copyright">
                 {data.datoCmsHome.copyright}
